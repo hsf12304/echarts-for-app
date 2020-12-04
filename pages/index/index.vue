@@ -9,6 +9,7 @@
 			<basicbar v-if="type=='basicbar'"></basicbar>
 			<jianbianbar v-if="type=='jianbianbar'"></jianbianbar>
 			<cardark v-if="type=='cardark'"></cardark>
+			<chinamap v-if="type=='chinamap'"></chinamap>
 		</view>
 		<view>
 			<button class="mini-btn" type="primary" plain="true" size="mini" v-for="(item ,index) in types" @click="changeType(item)">{{item}}</button>
@@ -22,8 +23,8 @@
 	export default {
 		data : function(){
 		  return {
-		    type:'bar10',
-			types:['basicline','bar10','stackedArea','rainfall','shareDataset','basicbar','jianbianbar','cardark'],
+		    type:'chinamap',
+			types:['basicline','bar10','stackedArea','rainfall','shareDataset','basicbar','jianbianbar','cardark','chinamap'],
 		  }
 		},
 		mounted() {

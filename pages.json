@@ -76,6 +76,15 @@
             }
             
         }
+        ,{
+            "path" : "pages/chinamap/chinamap",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

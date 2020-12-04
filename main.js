@@ -23,6 +23,11 @@ import cardark from './pages/gauge/cardark/cardark.vue'
 Vue.component('cardark',cardark)
 
 
+import chinamap from './pages/chinamap/chinamap.vue'
+Vue.component('chinamap',chinamap)
+
+
+
 Vue.config.productionTip = false
 
 App.mpType = 'app'
